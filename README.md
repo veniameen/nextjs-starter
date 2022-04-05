@@ -3,7 +3,6 @@
 - React
 - Stylelint
 - Sass
-- Express
 - Typescript
 - Eslint
 - Nextjs

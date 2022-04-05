@@ -1,11 +1,9 @@
-const StylelintPlugin = require("stylelint-webpack-plugin"); // line to add
+const StylelintPlugin = require('stylelint-webpack-plugin')
 module.exports = {
   reactStrictMode: true,
-      
-  // lines to add
-  webpack: (config, options) => {
-    config.plugins.push(new StylelintPlugin());
-    return config;
-  },
 
-};
+  webpack: (config, options) => {
+    config.plugins.push(new StylelintPlugin())
+    return config
+  },
+}

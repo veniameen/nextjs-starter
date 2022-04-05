@@ -1,19 +1,16 @@
 {
-  "name": "simple",
+  "name": "nextjs-starter",
   "version": "1.0.0",
   "description": "NextJS / React / Typescript / eslint / prettie / stylelint",
   "main": "index.js",
   "scripts": {
-    "build:server": "tsc --project tsconfig.server.json",
-    "build:next": "next build",
-    "next:start": "next start",
-    "build": "npm run build:next && npm run build:server",
-    "start": "NODE_ENV=production node dist/index.js",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint",
     "slint": "npx stylelint **/*.sass"
   },
   "keywords": [],
-  "author": "",
+  "author": "Veniamin Ryadnov",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
