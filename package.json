@@ -1,7 +1,7 @@
 {
-  "name": "Simple Project",
+  "name": "simple",
   "version": "1.0.0",
-  "description": "",
+  "description": "NextJS / React / Typescript / eslint / prettie / stylelint",
   "main": "index.js",
   "scripts": {
     "build:server": "tsc --project tsconfig.server.json",
