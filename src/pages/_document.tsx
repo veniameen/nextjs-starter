@@ -4,8 +4,17 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <body>
         <Main />
